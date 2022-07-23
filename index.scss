@@ -1,0 +1,60 @@
+/// @name kclass
+/// @since 1.0.0
+/// @access public
+/// @author Haba Kudzaev (rx1310)
+/// @link https://rx1310.site author site
+/// @example scss Example
+/// 	@use 'index' as *;
+/// 	@use 'node_modules/@rx1310/kalium19' as *;
+///
+/// 	@include klass(button, (
+/// 		colorFont: #000,
+/// 		colorBackground: #fcfc
+/// 	)) {
+/// 		color: kvar(colorFont);
+/// 		background-color: kvar(colorBackground);
+/// 		@include border-radius(10px);
+/// 	}
+/// @example css Result
+/// 	.button {
+/// 	  --colorFont: #000;
+/// 	  --colorBackground: rgba(255, 204, 255, 0.8);
+/// 	  color: var(--colorFont);
+/// 	  background-color: var(--colorBackground);
+/// 	  -webkit-border-radius: 10px;
+/// 	  -moz-border-radius: 10px;
+/// 	  border-radius: 10px;
+/// 	}
+/// @param {string} $name - klass name
+/// @param {map} $vars - variables map (JSON-like)
+@mixin klass($name, $vars) {
+	.#{$name} {
+		@each $key, $value in $vars {
+			--#{$key}: #{$value};
+		}
+		@content;
+	}
+};
+
+/// @name kvar
+/// @since 1.0.0
+/// @access public
+/// @author Haba Kudzaev (rx1310)
+/// @link https://rx1310.site author site
+/// @example scss Example
+/// 	color: kvar(colorFont);
+/// @example css Result
+/// 	color: var(--colorFont);
+/// @param {string} $name - variable name
+/// @param {string | int} $defaultValue [null] - default value for CSS Custom Props
+/// @return {string} returned CSS Custom Props code
+/// @see {mixin} klass
+@function kvar($name, $defaultValue: null) {
+
+	@if $defaultValue != null {
+		@return var(--#{$name}, $defaultValue);
+	}
+
+	@return var(--#{$name});
+
+}

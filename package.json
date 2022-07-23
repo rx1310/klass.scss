@@ -1,0 +1,53 @@
+{
+	"name": "@rx1310/klass.scss",
+	"version": "1.0.0",
+	"description": "📦 Набор утилит, миксинов, расширений на языке препроцессора @sass для помощи в ускорении, упрощении и улучщения процесса написания CSS-стилей.",
+	"main": "index.scss",
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"test": "sass --no-source-map --watch test.scss:test.css",
+		"editorconfig": "editorconfig-checker",
+		"npm:publish": "npm publish --access=public --tag release"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rx1310/klass.scss.git"
+	},
+	"funding": {
+		"type": "opencollective",
+		"url": "https://opencollective.com/rx1310"
+	},
+	"keywords": [
+		"sass",
+		"scss",
+		"sass-mixin",
+		"scss-mixin",
+		"sass-function",
+		"scss-function",
+		"sass-utils",
+		"scss-utils",
+		"kalium19",
+		"rx1310",
+		"k19",
+		"rx1310",
+		"css"
+	],
+	"author": {
+		"name": "Haba Kudzaev (rx1310)",
+		"email": "rx1310@inbox.ru",
+		"url": "https://rx1310.github.io"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/rx1310/klass.scss/issues"
+	},
+	"homepage": "https://github.com/rx1310/klass.scss#readme",
+	"devDependencies": {
+		"editorconfig-checker": "^4.0.2"
+	},
+	"dependencies": {
+		"sass": "^1.53.0"
+	}
+}

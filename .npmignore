@@ -1,0 +1,10 @@
+.vscode
+.*.swp
+._*
+.DS_Store
+.git
+.npmrc
+npm-debug.log
+.editorconfig
+.gitignore
+.github
