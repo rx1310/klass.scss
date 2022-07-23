@@ -1,11 +1,9 @@
 # klass.scss
 Абсолютно бесполезная фигня, которая непонятна даже автору (ну мне).
 
-![GitHub](https://img.shields.io/github/license/rx1310/klass.scss?style=flat-square)
 ![GitHub language count](https://img.shields.io/github/languages/count/rx1310/klass.scss?style=flat-square)
 ![GitHub top language](https://img.shields.io/github/languages/top/rx1310/klass.scss?style=flat-square)
 ![npm](https://img.shields.io/npm/v/@rx1310/klass.scss?label=npm%3A%20version&style=flat-square)
-![npms.io (popularity)](https://img.shields.io/npms-io/popularity-score/@rx1310/klass.scss?label=npm%3A%20popularity&style=flat-square)
 ![npm bundle size (scoped)](https://img.shields.io/bundlephobia/minzip/@rx1310/klass.scss?label=npm%3A%20minified%20size&style=flat-square)
 ![npm](https://img.shields.io/npm/dm/@rx1310/klass.scss?label=npm%3A%20downloads&style=flat-square)
 ![npm (prod) dependency version](https://img.shields.io/npm/dependency-version/@rx1310/klass.scss/sass?style=flat-square)
