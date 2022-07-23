@@ -55,7 +55,7 @@
 
     ```scss
     @use 'node_modules/@rx1310/klass.scss' as *;
-    @use 'node_modules/@rx1310/kalium19' as k19;
+    @use 'node_modules/@rx1310/klass.scss' as k19;
 
     @include klass(button, (
       colorFont: #000,
@@ -85,7 +85,7 @@
 6. готово!
 
 ## Лицензия
-Проект [Kalium19](https://github.com/rx1310/klass.scss) распространяется совершенно бесплатно и находится под защитой лицензии [MIT](LICENSE).
+Проект [klass.scss](https://github.com/rx1310/klass.scss) распространяется совершенно бесплатно и находится под защитой лицензии [MIT](LICENSE).
 
 Инструментарий, используемый в разработке, распространяется по указанной автором / компанией / разработчиком лицензии, не зависящей от этого проекта!
 
