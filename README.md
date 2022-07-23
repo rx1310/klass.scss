@@ -12,8 +12,6 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/rx1310/klass.scss?style=flat-square)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/rx1310/klass.scss?style=flat-square)
 ![GitHub repo size](https://img.shields.io/github/repo-size/rx1310/klass.scss?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues/rx1310/klass.scss?style=flat-square)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/rx1310/klass.scss?style=flat-square)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/rx1310/klass.scss?style=flat-square)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/rx1310/klass.scss?style=flat-square)
 
