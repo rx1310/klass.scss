@@ -50,8 +50,8 @@
 5. создаете новый "класс" в файле стилей, как на примере ниже:
 
     ```scss
+    @use 'node_modules/@rx1310/klass.scss' as *;
     @use 'node_modules/@rx1310/kalium19' as *;
-    @use 'node_modules/@rx1310/klass.scss' as k19;
 
     @include klass(button, (
       colorFont: #000,
